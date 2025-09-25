@@ -311,7 +311,6 @@ RDEPEND="
 DEPEND="${RDEPEND}"
 
 BDEPEND="
-	dev-build/meson
 	dev-util/blueprint-compiler
 "
 QA_FLAGS_IGNORED="usr/bin/snapshot"
