@@ -5,6 +5,8 @@
 
 EAPI=8
 
+RUST_MIN_VER="1.75"
+
 CRATES="
 	aes@0.8.4
 	aho-corasick@1.1.3
@@ -319,8 +321,8 @@ CRATES="
 
 inherit cargo gnome2-utils meson xdg
 
-DESCRIPTION=""
-HOMEPAGE=""
+DESCRIPTION="BitTorrent client for GNOME"
+HOMEPAGE="https://apps.gnome.org/Fragments/"
 SRC_URI="https://gitlab.gnome.org/World/Fragments/-/archive/3.0.1/Fragments-3.0.1.tar.gz"
 SRC_URI+="
 	${CARGO_CRATE_URIS}
