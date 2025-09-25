@@ -106,6 +106,7 @@ RDEPEND="${DEPEND}
 		>=x11-drivers/xf86-input-libinput-0.19.0
 		input_devices_wacom? ( >=x11-drivers/xf86-input-wacom-0.33.0 )
 	)
+	>=gnome-extra/malcontent-0.13.1
 "
 # PDEPEND to avoid circular dependency; gnome-session-check-accelerated called by info panel
 # gnome-session-2.91.6-r1 also needed so that 10-user-dirs-update is run at login
@@ -168,7 +169,7 @@ src_configure() {
 		#$(meson_use wayland) # doesn't do anything in 3.34 and 3.36 due to unified gudev handling code
 		# bashcompletions installed to $datadir/bash-completion/completions by v3.28.2,
 		# which is the same as $(get_bashcompdir)
-		-Dmalcontent=false # unpackaged
+		-Dmalcontent=true
 		-Ddistributor_logo=/usr/share/pixmaps/gnome-control-center-gentoo-logo.svg
 		-Ddark_mode_distributor_logo=/usr/share/pixmaps/gnome-control-center-gentoo-logo-dark.svg
 	)
