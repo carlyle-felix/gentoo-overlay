@@ -5,6 +5,8 @@
 
 EAPI=8
 
+RUST_MIN_VER="1.85.0"
+
 CRATES="
 	aho-corasick@1.1.3
 	allocator-api2@0.2.21
