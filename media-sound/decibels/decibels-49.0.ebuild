@@ -25,7 +25,6 @@ DEPEND="${RDEPEND}
 "
 
 BDEPEND="
-	>=dev-build/meson-1.7.2
 	>=dev-util/blueprint-compiler-0.16.0
 	>=dev-lang/typescript-5.9.2
 "
