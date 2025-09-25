@@ -311,7 +311,6 @@ DEPEND="${RDEPEND}"
 BDEPEND="
 	dev-build/meson
 	dev-util/blueprint-compiler
-	dev-lang/rust-bin
 "
 QA_FLAGS_IGNORED="usr/bin/snapshot"
 
