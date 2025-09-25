@@ -71,6 +71,6 @@ RDEPEND="
 	>=media-gfx/simple-scan-49.0
 	>=app-misc/localsearch-3.10.0
 	>=gnome-extra/gnome-tour-49.0
-	>=net-libs/gnome-online-accounts-49.0
-	>=gnome-initial-setup-49.0[webkit?]
+	>=net-libs/gnome-online-accounts-3.56.0
+	>=gnome-base/gnome-initial-setup-49.0[webkit?]
 "
