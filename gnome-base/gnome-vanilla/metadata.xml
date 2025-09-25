@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person" proxied="yes">
+		<email>carlyle.felix@gmail.com</email>
+		<name>carlyle-felix</name>
+	</maintainer>
+	<maintainer type="project" proxied="proxy">
+		<email>gnome@gentoo.org</email>
+		<name>Gentoo GNOME Desktop</name>
+	</maintainer>
+	<use>
+		<flag name="webkit">Install <pkg>net-libs/webkit-gtk</pkg> Install Webkit-gtk</flag>
+		<flag name="browser">Install <pkg>www-client/epiphany</pkg> Install Epiphany webbrowser</flag>
+		<flag name="webcam">Install <pkg>media-video/snapshot</pkg> Install Snapshot</flag>
+
+	</use>
+</pkgmetadata>
+
