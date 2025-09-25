@@ -343,7 +343,7 @@ RDEPEND="
 	>=dev-libs/glib-2.76
 	>=gui-libs/gtk-4.15.3
 	>=gui-libs/libadwaita-1.7
-	net-p2p/transmission[-gtk]
+	net-p2p/transmission[-gtk,cli]
 "
 
 DEPEND="${RDEPEND}
