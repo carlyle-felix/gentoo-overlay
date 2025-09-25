@@ -5,9 +5,6 @@
     <email>gnome@gentoo.org</email>
     <name>Gentoo GNOME Desktop</name>
   </maintainer>
-  <use>
-    <flag name="python">Build <pkg>dev-lang/python</pkg> using plugins (dbusservice for notifications and MPRIS control, interactive python console and opensubtitles lookup)</flag>
-  </use>
   <upstream>
     <remote-id type="gnome-gitlab">GNOME/showtime</remote-id>
   </upstream>
