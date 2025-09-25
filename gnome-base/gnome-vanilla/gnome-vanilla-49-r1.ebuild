@@ -70,4 +70,5 @@ RDEPEND="
 	>=media-plugins/grilo-plugins-0.3.18
 	>=media-gfx/simple-scan-49.0
 	>=app-misc/localsearch-3.10.0
+	>=gnome-extra/gnome-tour-49.0
 "
