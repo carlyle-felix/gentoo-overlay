@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~arm64"
 
 RDEPEND="
 	>=dev-libs/gjs-1.54.0
-	>=gui-libs/libadwaita-1.8.alpha
+	>=gui-libs/libadwaita-1.8.0
 	gui-libs/gtk:4
 "
 DEPEND="${RDEPEND}
