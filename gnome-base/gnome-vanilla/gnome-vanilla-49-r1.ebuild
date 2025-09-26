@@ -7,7 +7,7 @@ DESCRIPTION="Meta package for a vanilla GNOME experience on Gentoo"
 HOMEPAGE="https://www.gnome.org/"
 LICENSE="metapackage"
 SLOT="0"
-IUSE="browser webkit +webcam previewer"
+IUSE="browser webkit +webcam"
 KEYWORDS="~amd64 ~arm64"
 RDEPEND="
 	>=app-editors/gnome-text-editor-49.0
@@ -20,10 +20,7 @@ RDEPEND="
 	>=gnome-base/gnome-shell-49.0
 	>=gnome-base/gsettings-desktop-schemas-49.0
 	>=gnome-base/gvfs-1.58.0
-	|| ( 
-		webkit? ( >=gnome-base/nautilus-49.0[previewer?] )
-		>=gnome-base/nautilus-49.0[-previewer]
-	)
+	>=gnome-base/nautilus-49.0
 	>=gnome-extra/gnome-calculator-48.0
 	>=gnome-extra/gnome-calendar-49.0
 	>=gnome-extra/gnome-characters-49.0
@@ -45,9 +42,9 @@ RDEPEND="
 		browser? (
 			>=www-client/epiphany-49.0
 		)
-		>=gnome-extra/sushi-46.0
 		>=gnome-extra/yelp-49.0
 	)
+	>=gnome-extra/sushi-46.0
 	>=sys-apps/gnome-disk-utility-46.1-r1
 	>=x11-libs/gtk+-3.24
 	>=x11-terms/ptyxis-49.0
