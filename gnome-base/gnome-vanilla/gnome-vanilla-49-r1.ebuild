@@ -7,7 +7,7 @@ DESCRIPTION="Meta package for a vanilla GNOME experience on Gentoo"
 HOMEPAGE="https://www.gnome.org/"
 LICENSE="metapackage"
 SLOT="0"
-IUSE="browser +webkit +webcam +previewer"
+IUSE="browser webkit +webcam previewer"
 KEYWORDS="~amd64 ~arm64"
 RDEPEND="
 	>=app-editors/gnome-text-editor-49.0
@@ -72,5 +72,5 @@ RDEPEND="
 	>=app-misc/localsearch-3.10.0
 	>=gnome-extra/gnome-tour-49.0
 	>=net-libs/gnome-online-accounts-3.56.0
-	>=gnome-base/gnome-initial-setup-49.0[webkit?]
+	>=gnome-base/gnome-initial-setup-49.0
 "
