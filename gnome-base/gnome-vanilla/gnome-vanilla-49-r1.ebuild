@@ -8,7 +8,9 @@ HOMEPAGE="https://www.gnome.org/"
 LICENSE="metapackage"
 SLOT="0"
 IUSE="browser webkit +webcam"
+REQUIRED_USE="browser? ( webkit )"
 KEYWORDS="~amd64 ~arm64"
+
 RDEPEND="
 	>=app-editors/gnome-text-editor-49.0
 	webcam? (
