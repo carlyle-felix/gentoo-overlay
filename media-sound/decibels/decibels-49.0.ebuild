@@ -12,14 +12,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 
 RDEPEND="
-	>=media-libs/graphene-1.10.8-r1
-	>=media-libs/gstreamer-1.24.11
-	>=media-libs/gst-plugins-base-1.24.11
-	>=media-libs/gst-plugins-good-1.24.11
-	>=media-plugins/gst-plugin-gtk4-0.13.4[opengl]
-	>=gnome-base/gsettings-desktop-schemas-48.0
-	>=dev-libs/gobject-introspection-1.84.0-r1
-	>=gui-libs/libadwaita-1.7.6
+	>=dev-libs/gjs-1.54.0
+	>=gui-libs/libadwaita-1.8.alpha
+	gui-libs/gtk:4
 "
 DEPEND="${RDEPEND}
 "
