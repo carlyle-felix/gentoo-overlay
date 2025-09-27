@@ -36,7 +36,8 @@ BDEPEND="
 	net-libs/libsoup:3.0[vala]
 	gui-libs/gtksourceview:5[vala]
 	gui-libs/libadwaita:1[vala]
-"
+	>=dev-build/meson-1.8.5
+" # Build fails with meson-1.7.2
 
 src_prepare() {
 	default
