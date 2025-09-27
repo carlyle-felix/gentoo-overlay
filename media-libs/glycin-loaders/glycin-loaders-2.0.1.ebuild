@@ -5,6 +5,7 @@ EAPI=8
 
 CRATES="
 "
+
 RUST_MIN_VER=1.85.0
 
 inherit cargo meson
@@ -93,7 +94,7 @@ src_configure() {
 		-Dtests=$(usex test true false)
 		-Dlibglycin=true
 		-Dlibglycin-gtk4=true
-		-Dglycin-thumbnailer=false
+		-Dglycin-thumbnailer=true
 
 		# TODO: figure out why it fails
 		# https://gitlab.gnome.org/GNOME/glycin/-/issues/167
