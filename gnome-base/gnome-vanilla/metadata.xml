@@ -13,7 +13,7 @@
 		<flag name="webkit">Install <pkg>net-libs/webkit-gtk</pkg> Install Webkit-gtk</flag>
 		<flag name="browser">Install <pkg>www-client/epiphany</pkg> Install Epiphany webbrowser</flag>
 		<flag name="webcam">Install <pkg>media-video/snapshot</pkg> Install Snapshot</flag>
-
+		<flag name="qemu">Install <pkg>gnome-extra/gnome-boxes</pkg> Install gnome-boxes</flag>
 	</use>
 </pkgmetadata>
 

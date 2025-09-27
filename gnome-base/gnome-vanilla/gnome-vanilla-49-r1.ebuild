@@ -7,7 +7,7 @@ DESCRIPTION="Meta package for a vanilla GNOME experience on Gentoo"
 HOMEPAGE="https://www.gnome.org/"
 LICENSE="metapackage"
 SLOT="0"
-IUSE="browser webkit +webcam"
+IUSE="browser webkit webcam qemu"
 REQUIRED_USE="browser? ( webkit )"
 KEYWORDS="~amd64 ~arm64"
 
@@ -72,4 +72,5 @@ RDEPEND="
 	>=gnome-extra/gnome-tour-49.0
 	>=net-libs/gnome-online-accounts-3.56.0
 	>=gnome-base/gnome-initial-setup-49.0
+	qemu? ( >=gnome-extra/gnome-boxes-49.0 )
 "
