@@ -4,7 +4,8 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_13 )
-inherit gnome.org gnome2-utils meson xdg
+
+inherit gnome.org gnome2-utils meson python-single-r1 xdg
 
 DESCRIPTION="Watch without distraction"
 HOMEPAGE="https://apps.gnome.org/Showtime/"
@@ -16,14 +17,15 @@ IUSE="+gstreamer +python"
 REQUIRED_USE="gstreamer python"
 
 RDEPEND="
+	${PYTHON_DEPS}
 	>=gui-libs/gtk-4.18.0
 	>=gui-libs/libadwaita-1.7.6
 	gstreamer? (
 		>=media-libs/gstreamer-1.24.11
 		>=media-libs/gst-plugins-base-1.24.11
 		>=media-libs/gst-plugins-good-1.24.11
+		>=media-plugins/gst-plugin-gtk4-0.13.4:1.0
 	)
-	python? ( >=dev-lang/python-3.13 )
 "
 
 DEPEND="${RDEPEND}
@@ -32,8 +34,15 @@ DEPEND="${RDEPEND}
 BDEPEND="
 	>=dev-util/blueprint-compiler-0.16.0
 "
-src_configure() {
-	meson_src_configure
+
+pkg_setup() {
+	python_setup
+}
+
+src_install() {
+	meson_src_install
+	python_fix_shebang "${D}"/usr/bin/showtime
+	python_optimize
 }
 
 pkg_postinst() {
