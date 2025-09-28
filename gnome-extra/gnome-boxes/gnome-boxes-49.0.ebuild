@@ -46,7 +46,7 @@ DEPEND="
 RDEPEND="${DEPEND}
 	app-cdr/cdrtools
 	app-misc/localsearch:3[iso]
-	app-emulation/spice
+	app-emulation/spice[smartcard]
 	>=app-emulation/libvirt-0.9.3[libvirtd,qemu]
 	>=app-emulation/qemu-1.3.1[spice,smartcard,usbredir]
 	sys-fs/mtools
