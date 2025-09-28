@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-libs/libxml2-2.6.5:2=
 	>=dev-libs/libxslt-1.1.4
 	dev-db/sqlite:3=
-	>=net-libs/webkit-gtk-2.48
+	net-libs/webkit-gtk:6
 	>=gnome-extra/yelp-xsl-42.3
 	>=app-arch/xz-utils-4.9:=
 	app-arch/bzip2:=
