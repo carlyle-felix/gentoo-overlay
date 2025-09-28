@@ -295,17 +295,22 @@ LICENSE+="
 SLOT="0"
 
 KEYWORDS="~amd64 ~arm64"
+IUSE="+gstreamer"
+REQUIRED_USE="gstreamer"
 
 RDEPEND="
-	>=dev-libs/glib-2.84.3
-	>=gui-libs/gtk-4.16.13
-	>=media-video/pipewire-1.4.7[v4l]
-	>=media-libs/gstreamer-1.24.11
-	>=media-libs/gst-plugins-base-1.24.11
-	>=media-libs/gst-plugins-bad-1.24.11
-	>=media-plugins/gst-plugins-vpx-1.24.11
-	>=media-plugins/gst-plugins-jpeg-1.24.11
-	>=gui-libs/libadwaita-1.7.6
+	>=dev-libs/glib-2.75:2
+	>=gui-libs/gtk-4.18:4
+	>=gui-libs/libadwaita-1.8.0:1
+	gstreamer? (
+		>=media-libs/gstreamer-1.20:1.0
+		>=media-libs/gst-plugins-base-1.20:1.0
+		>=media-libs/gst-plugins-bad-1.20:1.0
+		>=media-plugins/gst-plugins-vpx-1.20:1.0
+		>=media-plugins/gst-plugins-jpeg-1.20:1.0
+	)
+	>=media-libs/lcms-2.12.0:2
+	>=sys-libs/libseccomp-2.5.0
 "
 
 DEPEND="${RDEPEND}"
