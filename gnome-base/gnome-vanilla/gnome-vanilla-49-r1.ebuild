@@ -7,7 +7,7 @@ DESCRIPTION="Meta package for a vanilla GNOME experience on Gentoo"
 HOMEPAGE="https://www.gnome.org/"
 LICENSE="metapackage"
 SLOT="0"
-IUSE="accessibility browser qemu webcam webkit mtp"
+IUSE="accessibility browser qemu webcam webkit"
 REQUIRED_USE="browser? ( webkit )"
 KEYWORDS="~amd64 ~arm64"
 
