@@ -5,11 +5,11 @@
 ## `gnome-base/gnome-vanilla` 
 |  USE flag | description  |
 |---:|---|
-| `webkit` | build and install both `webkit-gtk` and `yelp`. |
-| `browser` | build and install Epiphany (requires `webkit`). |
-| `webcam` | build and install GNOME's `snapshot` camera app. |
-| `qemu` | build and install `gnome-boxes` |   
-| `accessiblity` | build and install `orca` |
+| `webkit` | install both `webkit-gtk` and `yelp`. |
+| `browser` | install Epiphany (requires `webkit`). |
+| `webcam` | install GNOME's `snapshot` camera app. |
+| `qemu` | install `gnome-boxes` |   
+| `accessiblity` | install `orca` |
 
 ## Notes
 - As a result of removing many of the patches from the original ebuilds found in the gentoo official repo, this is unlikely to work as expected on openrc systems.
