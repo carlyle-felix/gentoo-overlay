@@ -10,6 +10,7 @@
 		<name>Gentoo GNOME Desktop</name>
 	</maintainer>
 	<use>
+		<flag name="accessibility">Install <pkg>app-accessibility/orca</pkg> Install Orca</flag>
 		<flag name="webkit">Install <pkg>net-libs/webkit-gtk</pkg> Install Webkit-gtk</flag>
 		<flag name="browser">Install <pkg>www-client/epiphany</pkg> Install Epiphany webbrowser</flag>
 		<flag name="webcam">Install <pkg>media-video/snapshot</pkg> Install Snapshot</flag>

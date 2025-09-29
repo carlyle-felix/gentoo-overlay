@@ -7,11 +7,13 @@ DESCRIPTION="Meta package for a vanilla GNOME experience on Gentoo"
 HOMEPAGE="https://www.gnome.org/"
 LICENSE="metapackage"
 SLOT="0"
-IUSE="browser webkit webcam qemu"
+IUSE="accessibility browser qemu webcam webkit mtp"
 REQUIRED_USE="browser? ( webkit )"
 KEYWORDS="~amd64 ~arm64"
 
 RDEPEND="
+	accessibility? ( >=app-accessibility/orca-49.0 )
+	qemu? ( >=gnome-extra/gnome-boxes-49.0 )
 	webcam? (
 		>=media-video/snapshot-49.0
 	)
@@ -22,7 +24,6 @@ RDEPEND="
 		)
 		>=gnome-extra/yelp-49.0
 	)
-	qemu? ( >=gnome-extra/gnome-boxes-49.0 )
 
 	>=app-editors/gnome-text-editor-49.0
 	>=app-misc/localsearch-3.10.0
@@ -61,6 +62,7 @@ RDEPEND="
 	>=media-libs/grilo-0.3.19
 	>=media-plugins/grilo-plugins-0.3.18
 	>=media-sound/decibels-49.0
+	>=media-sound/gnome-music-49.0
 	>=media-video/showtime-49.0
 	>=net-libs/gnome-online-accounts-3.56.0
 	>=net-misc/gnome-connections-49.0
