@@ -19,7 +19,7 @@ IUSE="accessibility aqua broadway cloudproviders colord cups examples gstreamer 
 
 # TODO: Optional gst build dep on >=gst-plugins-base-1.23.1, so depend on it once we can
 COMMON_DEPEND="
-	>=dev-libs/glib-2.76.0:2
+	>=dev-libs/glib-2.84.0:2
 	>=x11-libs/cairo-1.18.2[aqua?,glib,svg(+),X?]
 	>=x11-libs/pango-1.56.0[introspection?]
 	>=dev-libs/fribidi-1.0.6
