@@ -76,7 +76,6 @@ DEPEND="${COMMON_DEPEND}
 	X? ( x11-base/xorg-proto )
 "
 RDEPEND="${COMMON_DEPEND}
-	>=dev-util/gtk-update-icon-cache-3
 "
 # librsvg for svg icons (PDEPEND to avoid circular dep on wd40 profiles with librsvg[tools]), bug #547710
 PDEPEND="
