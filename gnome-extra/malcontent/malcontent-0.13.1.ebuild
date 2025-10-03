@@ -22,7 +22,7 @@ RDEPEND="
 	dev-libs/appstream
 	sys-apps/dbus
 	dev-libs/glib:2
-	pam? ( sys-libs/pam )
+	sys-libs/pam
 	sys-apps/flatpak
 "
 DEPEND="${RDEPEND}"
