@@ -321,13 +321,13 @@ CRATES="
 
 inherit cargo gnome2-utils meson xdg
 
-DESCRIPTION="BitTorrent client for GNOME"
+DESCRIPTION="An easy to use BitTorrent client."
 HOMEPAGE="https://apps.gnome.org/Fragments/"
-SRC_URI="https://gitlab.gnome.org/World/Fragments/-/archive/3.0.1/Fragments-3.0.1.tar.gz"
+SRC_URI="https://gitlab.gnome.org/World/Fragments/-/archive/${PV}/${PN^}-${PV}.tar.bz2"
 SRC_URI+="
 	${CARGO_CRATE_URIS}
 "
-S="${WORKDIR}/Fragments-${PV}"
+S="${WORKDIR}/${PN^}-${PV}"
 
 LICENSE="GPL-3+"
 # Dependent crate licenses
@@ -341,15 +341,13 @@ RDEPEND="
 	>=sys-apps/dbus-1
 	>=dev-libs/openssl-1.0
 	>=dev-libs/glib-2.76
-	>=gui-libs/gtk-4.15.3
-	>=gui-libs/libadwaita-1.7
+	>=gui-libs/gtk-4.12.0
+	>=gui-libs/libadwaita-1.5.0
 	net-p2p/transmission[-gtk,cli]
 "
 
 DEPEND="${RDEPEND}
-"
-
-BDEPEND="
+	dev-libs/appstream
 "
 
 QA_FLAGS_IGNORED="usr/bin/fragments"

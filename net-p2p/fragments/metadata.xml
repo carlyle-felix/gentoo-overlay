@@ -3,7 +3,7 @@
 <pkgmetadata>
   <maintainer type="project">
     <email>gnome@gentoo.org</email>
-    <name>Gentoo GNOME Desktop (Circle)</name>
+    <name>Gentoo GNOME Desktop</name>
   </maintainer>
   <upstream>
     <remote-id type="gnome-gitlab">World/Fragments</remote-id>
