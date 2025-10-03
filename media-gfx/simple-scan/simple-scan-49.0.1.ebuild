@@ -7,7 +7,6 @@ inherit gnome.org gnome2-utils meson python-any-r1 vala xdg
 
 DESCRIPTION="Simple document scanning utility"
 HOMEPAGE="https://gitlab.gnome.org/GNOME/simple-scan"
-SRC_URI="https://gitlab.gnome.org/GNOME/simple-scan/-/archive/49.0/simple-scan-49.0.tar.gz"
 LICENSE="GPL-3+"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
