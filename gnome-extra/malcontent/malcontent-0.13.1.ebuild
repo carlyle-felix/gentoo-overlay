@@ -6,7 +6,7 @@ inherit meson xdg
 
 DESCRIPTION="Parental control support for applications"
 HOMEPAGE="https://gitlab.freedesktop.org/pwithnall/malcontent"
-SRC_URI="https://gitlab.freedesktop.org/pwithnall/malcontent/-/archive/${PV}/${PN}-${PV}.tar.gz"
+SRC_URI="https://gitlab.freedesktop.org/pwithnall/malcontent/-/archive/${PV}/${PN}-${PV}.tar.bz2"
 
 LICENSE="LGPL-2.1"
 SLOT="0"
