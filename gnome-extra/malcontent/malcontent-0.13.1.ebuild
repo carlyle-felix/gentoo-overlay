@@ -25,7 +25,7 @@ BDEPEND="
 
 src_configure() {
 	local emesonargs=(
-		-Dpamlibdir="/etc/pam.d/"
+		-Dpamlibdir="/lib64/security/"
 	)
 	meson_src_configure
 }
