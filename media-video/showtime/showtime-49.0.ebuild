@@ -22,6 +22,7 @@ RDEPEND="
 	>=media-libs/gst-plugins-base-1.24.11
 	>=media-libs/gst-plugins-good-1.24.11
 	>=media-plugins/gst-plugin-gtk4-0.13.4:1.0
+	dev-libs/appstream	
 "
 
 DEPEND="${RDEPEND}
