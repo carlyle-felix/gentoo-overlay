@@ -13,18 +13,15 @@ HOMEPAGE="https://apps.gnome.org/Showtime/"
 LICENSE="GPL-3+"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
-IUSE="gstreamer"
 
 RDEPEND="
 	${PYTHON_DEPS}
 	>=gui-libs/gtk-4.18.0:4
 	>=gui-libs/libadwaita-1.8.0:1
-	gstreamer? (
-		>=media-libs/gstreamer-1.24.11
-		>=media-libs/gst-plugins-base-1.24.11
-		>=media-libs/gst-plugins-good-1.24.11
-		>=media-plugins/gst-plugin-gtk4-0.13.4:1.0
-	)
+	>=media-libs/gstreamer-1.24.11
+	>=media-libs/gst-plugins-base-1.24.11
+	>=media-libs/gst-plugins-good-1.24.11
+	>=media-plugins/gst-plugin-gtk4-0.13.4:1.0
 "
 
 DEPEND="${RDEPEND}
