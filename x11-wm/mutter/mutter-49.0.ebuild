@@ -32,7 +32,6 @@ RESTRICT="!test? ( test )"
 # dev-libs/wayland is always needed at build time due to https://bugs.gentoo.org/937632
 RDEPEND="
 	>=media-libs/graphene-1.10.2[introspection?]
-	x11-libs/gdk-pixbuf:2
 	>=x11-libs/pango-1.46[introspection?]
 	>=x11-libs/cairo-1.14[X]
 	>=x11-libs/pixman-0.42
@@ -79,7 +78,8 @@ RDEPEND="
 		>=x11-libs/gtk+-3.19.8:3[X,introspection?]
 	)
 	sysprof? ( >=dev-util/sysprof-capture-3.40.1:4 >=dev-util/sysprof-3.46.0 )
-	>=media-libs/glycin-loaders-2.0.0-r1
+	>=media-libs/glycin-loaders-2.0.0
+	gui-libs/libadwaita:1
 "
 
 X11_CLIENT_DEPS="
