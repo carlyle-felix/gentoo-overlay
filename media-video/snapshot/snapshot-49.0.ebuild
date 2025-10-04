@@ -303,6 +303,7 @@ RDEPEND="
 	>=media-libs/gstreamer-1.20:1.0
 	>=media-libs/gst-plugins-base-1.20:1.0
 	>=media-libs/gst-plugins-bad-1.20:1.0
+	>=media-plugins/gst-plugins-jpeg-1.20:1.0
 	>=media-plugins/gst-plugins-vpx-1.20:1.0
 	>=media-plugins/gst-plugin-gtk4-0.13.4:1.0
 	>=media-libs/lcms-2.12.0:2
