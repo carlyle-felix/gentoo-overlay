@@ -78,7 +78,7 @@ RDEPEND="
 		>=x11-libs/gtk+-3.19.8:3[X,introspection?]
 	)
 	sysprof? ( >=dev-util/sysprof-capture-3.40.1:4 >=dev-util/sysprof-3.46.0 )
-	>=media-libs/glycin-loaders-2.0.0
+	>=media-libs/glycin-2.0.0
 	gui-libs/libadwaita:1
 "
 
