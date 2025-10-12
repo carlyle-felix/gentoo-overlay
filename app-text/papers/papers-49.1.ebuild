@@ -5,6 +5,8 @@
 
 EAPI=8
 
+RUST_MIN_VER="1.83"
+
 CRATES="
 	adler2@2.0.1
 	aes@0.8.4
@@ -260,8 +262,6 @@ CRATES="
 	zvariant_derive@5.7.0
 	zvariant_utils@3.2.1
 "
-
-RUST_MIN_VER="1.81"
 
 inherit cargo gnome.org gnome2 meson xdg
 
