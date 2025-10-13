@@ -17,7 +17,7 @@ RESTRICT="!test? ( test )"
 
 RDEPEND="
 	>=dev-libs/gjs-1.50
-	>=dev-libs/glib-2.83.0:2
+	>=dev-libs/glib-2.86.0:2
 	>=dev-libs/gobject-introspection-1.35.9:=
 	>=gui-libs/gtk-4.6:4[introspection]
 	>=gui-libs/libadwaita-1.6:1=
