@@ -17,7 +17,7 @@ IUSE="+braille"
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 DEPEND="${PYTHON_DEPS}
-	>=app-accessibility/at-spi2-core-2.52:2[introspection]
+	>=app-accessibility/at-spi2-core-2.56:2[introspection]
 	>=dev-libs/glib-2.28:2
 	media-libs/gstreamer:1.0[introspection]
 	>=x11-libs/gtk+-3.6.2:3[introspection]
