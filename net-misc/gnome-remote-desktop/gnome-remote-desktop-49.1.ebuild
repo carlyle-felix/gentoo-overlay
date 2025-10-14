@@ -27,7 +27,7 @@ DEPEND="
 	app-crypt/tpm2-tss:=
 	rdp? (
 		>=media-libs/nv-codec-headers-11.1.5.0
-		>=net-misc/freerdp-3.15.0[server]
+		>=net-misc/freerdp-3.17.2-r1[server]
 		>=sys-fs/fuse-3.9.1:3=
 		media-libs/libva
 		>=sys-auth/polkit-122
