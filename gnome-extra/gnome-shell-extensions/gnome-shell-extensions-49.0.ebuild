@@ -22,7 +22,7 @@ RDEPEND="${DEPEND}
 	>=dev-libs/gjs-1.29
 	dev-libs/gobject-introspection:=
 	gnome-base/gnome-menus:3[introspection]
-	=gnome-base/gnome-shell-49.0
+	>=gnome-base/gnome-shell-${PV}
 	gui-libs/libadwaita[introspection]
 	media-libs/clutter:1.0[introspection]
 	media-libs/graphene[introspection]
