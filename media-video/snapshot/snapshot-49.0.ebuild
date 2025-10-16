@@ -305,17 +305,17 @@ RDEPEND="
 	>=media-libs/gst-plugins-bad-1.20:1.0
 	>=media-plugins/gst-plugins-jpeg-1.20:1.0
 	>=media-plugins/gst-plugin-gtk4-0.13.4:1.0
+	media-video/pipewire[gstreamer]
 	>=media-libs/lcms-2.12.0:2
 	>=sys-libs/libseccomp-2.5.0
-	dev-libs/appstream
 "
 
 DEPEND="${RDEPEND}"
 
 BDEPEND="
 	dev-util/blueprint-compiler
+	dev-libs/appstream
 "
-QA_FLAGS_IGNORED="usr/bin/snapshot"
 
 src_configure() {
 	meson_src_configure
