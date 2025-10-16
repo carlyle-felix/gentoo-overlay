@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-inherit bash-completion-r1 gnome.org gnome2-utils meson systemd virtualx xdg
+inherit bash-completion-r1 gnome.org gnome2-utils meson systemd virtualx xdg vala
 
 DESCRIPTION="Simple low-level configuration system"
 HOMEPAGE="https://wiki.gnome.org/Projects/dconf"
@@ -29,6 +29,11 @@ BDEPEND="
 	app-shells/bash-completion
 	dev-lang/vala
 "
+
+src_prepare() {
+	default
+	vala_setup
+}
 
 src_configure() {
 	local emesonargs=(
