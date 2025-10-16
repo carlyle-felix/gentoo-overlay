@@ -24,7 +24,8 @@ RDEPEND="
 	dev-libs/glib:2
 	sys-libs/pam
 	sys-apps/flatpak
-"
+	dev-libs/libglib-testing
+" #Build complains about libglib-testing after enabling graphite in gcc? 
 DEPEND="${RDEPEND}"
 
 src_configure() {
