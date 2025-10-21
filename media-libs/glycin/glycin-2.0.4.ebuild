@@ -12,7 +12,7 @@ inherit cargo meson vala
 
 DESCRIPTION="The Rust image library"
 HOMEPAGE="https://gitlab.gnome.org/GNOME/glycin/"
-SRC_URI+="https://gitlab.gnome.org/GNOME/glycin/-/archive/2.0.3/glycin-2.0.3.tar.bz2
+SRC_URI+="https://gitlab.gnome.org/GNOME/glycin/-/archive/${PV}/glycin-${PV}.tar.bz2
 		https://github.com/gentoo-crate-dist/glycin/releases/download/${PV}/glycin-${PV}-crates.tar.xz"
 
 LICENSE="MPL-2.0"
