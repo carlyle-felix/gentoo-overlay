@@ -15,6 +15,7 @@ CRATES="
 	async-channel@2.5.0
 	async-executor@1.13.3
 	async-fs@2.1.3
+	async-global-executor@3.1.0
 	async-io@2.5.0
 	async-lock@3.4.1
 	async-net@2.0.0
@@ -91,8 +92,8 @@ CRATES="
 	glib-sys@0.21.1
 	glib@0.21.1
 	glycin-common@1.0.0
-	glycin-utils@4.0.0
-	glycin@3.0.0
+	glycin-utils@4.0.4
+	glycin@3.0.4
 	gobject-sys@0.21.1
 	graphene-rs@0.21.1
 	graphene-sys@0.21.1
@@ -241,10 +242,8 @@ CRATES="
 	winapi-x86_64-pc-windows-gnu@0.4.0
 	winapi@0.3.9
 	windows-link@0.1.3
-	windows-link@0.2.0
 	windows-sys@0.52.0
 	windows-sys@0.60.2
-	windows-sys@0.61.0
 	windows-targets@0.52.6
 	windows-targets@0.53.3
 	windows_aarch64_gnullvm@0.52.6
