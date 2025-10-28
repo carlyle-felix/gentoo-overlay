@@ -33,7 +33,6 @@ RDEPEND="
 	>=gnome-base/dconf-0.49.0
 	>=gnome-base/gdm-49.0
 	>=gnome-base/gnome-control-center-49.0
-	>=gnome-base/gnome-initial-setup-49.0
 	>=gnome-base/gnome-keyring-48.0
 	>=gnome-base/gnome-session-49.0
 	>=gnome-base/gnome-settings-daemon-49.0
